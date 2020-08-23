@@ -1,0 +1,17 @@
+.gl{white-space:nowrap}.hp #tsf{margin:0 auto;width:833px;}#tsf{width:833px}.big #tsf,.hp .big #tsf{width:1139px;}
+
+
+#google{
+display: flex;
+position: relative;
+flex: auto;
+
+}
+
+.submit-button{
+    display: flex;
+    position: relative;
+    flex: right;
+    width: 10em;
+    border-radius: 5em;
+}
