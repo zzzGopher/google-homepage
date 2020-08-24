@@ -11,7 +11,15 @@
 
 }
 
+#viewport{
+
+    width: 2488px;
+    height: 1023px;
+    max-width: 100%;
+    min-width: 100%;
     
+
+}
 
 .ctr-p{
 
@@ -24,19 +32,16 @@
 
 .input-field{
     position: relative;
-    display: flex;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -37px;
-    z-index: 4;
-    background-color: transparent;
-    
 
 }
 
 .input-field {
   
-  width: 600px;
+  width: 465px;
   height: 44px;
     
     position: relative;
@@ -45,8 +50,15 @@
     font-size: 16px;
     font: normal;
     font-family: Arial, Helvetica, sans-serif;
-    z-index: 4;
-    background-color: transparent;
+}
+
+.input-border{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    height: 44px;
+    position: absolute;
     border: 1px solid #ddd;
     border-top-color: rgb(223, 225, 229);
     border-top-style: solid;
@@ -76,6 +88,7 @@
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
     border-bottom-left-radius: 24px;
+    z-index: 3;
     background: #fff;
     background-color: rgb(255, 255, 255);
     background-position-x: 0%;
@@ -86,51 +99,23 @@
     background-size: auto;
     background-origin: padding-box;
     background-clip: border-box;
-    
-    
-    
 }
 
- .input-field:hover{
+ .input-border:hover{
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
     border-color: rgba(223,225,229,0);
-    
 }
 
 .search-icon{
 
-    display: flex;
+    display: block;
     position: absolute;
     margin-left: 60em;
-    z-index: 24;
+    
     margin-top: -24px;
-    color: #9aa0a6;
-    fill: currentColor;
-line-height: 24px;
 }
     
-
-.header-left{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 9em;
-    position: relative;
-    float: left;
-    margin-top: -16em;
-}
     
 
-        
-  .header-right{
+}
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 12em;
-    position: relative;
-    float: right;
-    margin-top: -16em;
-
-  }  
